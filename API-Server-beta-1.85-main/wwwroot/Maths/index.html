@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+
+    <link rel="site.webmanifest" href="manifest.json" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./css/MathsUI.css" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="header">
+            <h1>Test du service /api/maths</h1>
+        </div>
+        <div>
+            <div>
+                <fieldset>
+                    <legend>Url du service</legend>
+                    <input type="text" id="url">
+                    <span>/api/maths</span>
+                    <input type="button" id="get" value="Démarrer le test">
+                    <input type="button" value="Aide">
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Tests</legend>
+                    <div id="content">
+
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                    <legend>Verdict</legend>
+                    <div id="result">
+
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.maskedinput/1.4.1/jquery.maskedinput.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/Maths_API.js"></script>
+    <script src="js/appUI.js"></script>
+
+</body>
+
+</html>
